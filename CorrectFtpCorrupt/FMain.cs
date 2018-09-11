@@ -11,6 +11,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+///  Developer : Mohsen Shakibafar
+/// </summary>
 namespace CorrectFtpCorrupt
 {
     public partial class FMain : Form
