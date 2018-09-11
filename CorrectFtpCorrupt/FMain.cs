@@ -38,11 +38,11 @@ namespace CorrectFtpCorrupt
             {
                 progressBar1.Maximum = filelist.Count;
                 progressBar1.Value = 0;
-                ThreadPool.QueueUserWorkItem(RunRepaid);
+                ThreadPool.QueueUserWorkItem(RunRepair);
             }
         }
 
-        private void RunRepaid(Object obj)
+        private void RunRepair(Object obj)
         {
             int c = 0;
 
